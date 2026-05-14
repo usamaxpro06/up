@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>USAMAXPRO</title>
+
+  <!-- Gaming Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      width:100%;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      overflow:hidden;
+      font-family:'Orbitron', sans-serif;
+
+      /* PUBG Wallpaper */
+      background-image:
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('https://wallpapercave.com/wp/wp5128415.jpg');
+
+      background-size:cover;
+      background-position:center;
+      background-repeat:no-repeat;
+    }
+
+    h1{
+      font-size:52px;
+      font-weight:700;
+      letter-spacing:4px;
+      text-transform:uppercase;
+
+      animation: glowColor 5s infinite alternate;
+
+      text-shadow:
+      0 0 5px rgba(255,0,0,0.4),
+      0 0 10px rgba(255,0,0,0.3),
+      0 0 20px rgba(255,0,0,0.2);
+    }
+
+    @keyframes glowColor{
+
+      0%{
+        color:#ff3b3b;
+      }
+
+      25%{
+        color:#ff7b00;
+      }
+
+      50%{
+        color:#ff00cc;
+      }
+
+      75%{
+        color:#7a5cff;
+      }
+
+      100%{
+        color:#00e1ff;
+      }
+    }
+
+    /* Mobile */
+
+    @media (max-width:600px){
+
+      h1{
+        font-size:34px;
+        text-align:center;
+        letter-spacing:2px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>USAMAXPRO</h1>
+
+</body>
+</html>
