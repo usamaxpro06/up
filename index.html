@@ -1,98 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ur-Latn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>USAMAXPRO</title>
-
-  <!-- Gaming Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
-
-  <style>
-
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-    }
-
-    body{
-      width:100%;
-      height:100vh;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      overflow:hidden;
-      font-family:'Orbitron', sans-serif;
-
-    
-      background-image:
-      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-      url('pbg.jpg');
-
-      background-size:cover;
-      background-position:center;
-      background-repeat:no-repeat;
-    }
-
-    h1{
-      font-size:52px;
-      font-weight:700;
-      letter-spacing:4px;
-      text-transform:uppercase;
-
-      animation: glowColor 5s infinite alternate;
-
-      text-shadow:
-      0 0 5px rgba(255,0,0,0.4),
-      0 0 10px rgba(255,0,0,0.3),
-      0 0 20px rgba(255,0,0,0.2);
-    }
-
-    @keyframes glowColor{
-
-      0%{
-        color:#ff3b3b;
-      }
-
-      25%{
-        color:#ff7b00;
-      }
-
-      50%{
-        color:#ff00cc;
-      }
-
-      75%{
-        color:#7a5cff;
-      }
-
-      100%{
-        color:#00e1ff;
-      }
-    }
-
-    /* Mobile */
-
-    @media (max-width:600px){
-
-      h1{
-        font-size:34px;
-        text-align:center;
-        letter-spacing:2px;
-      }
-
-    }
-
-  </style>
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MEMI | Mobile aur Internet ki Aasan Tips</title>
+<meta name="description" content="Mobile, internet aur online kamai ke bare mein aasan Roman Urdu tips.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%230b6b63%27/%3E%3Crect y=%2754%27 width=%2764%27 height=%2710%27 fill=%27%23f2b705%27/%3E%3Ctext x=%2732%27 y=%2742%27 font-family=%27Arial%27 font-weight=%27bold%27 font-size=%2726%27 text-anchor=%27middle%27 fill=%27white%27%3ENF%3C/text%3E%3C/svg%3E">
+<style>
+:root{--bg:#f2f7f6;--ink:#12302f;--mut:#4d6967;--acc:#0b6b63;--hi:#f2b705;--card:#fff;--line:#d3e2e0}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1c1b;--ink:#e6f2f0;--mut:#9bb8b4;--acc:#4fc3b8;--card:#162726;--line:#274240}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 "Segoe UI",Verdana,sans-serif}
+a{color:var(--acc)}
+header{border-bottom:3px solid var(--hi);background:var(--card)}
+.wrap{max-width:1000px;margin:auto;padding:0 18px}
+header .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;padding:14px 18px}
+.logo{display:flex;align-items:center;gap:10px;font-size:1.4rem;font-weight:800;text-decoration:none;color:var(--ink)}
+.badge{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:10px;background:var(--acc);color:#fff;font-size:1.05rem;font-weight:800;letter-spacing:1px;border-bottom:4px solid var(--hi)}
+nav a{margin-left:16px;text-decoration:none;font-weight:600}
+.hero{padding:40px 0 12px}
+.hero h1{font-size:clamp(1.8rem,5vw,2.8rem);line-height:1.2;margin:0 0 10px;max-width:16em}
+.hero p{color:var(--mut);margin:0;max-width:34em}
+.ad{margin:22px 0;min-height:90px;border:1px dashed var(--line);display:flex;align-items:center;justify-content:center;color:var(--mut);font-size:.85rem;text-align:center;overflow:hidden}
+.layout{display:grid;grid-template-columns:1fr 300px;gap:28px}
+@media(max-width:800px){.layout{grid-template-columns:1fr}}
+article{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--acc);border-radius:6px;padding:18px 22px;margin-bottom:18px}
+article h2{margin:0 0 6px;font-size:1.25rem}
+article small{color:var(--mut)}
+article p{margin:8px 0 0}
+aside .box{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:16px;margin-bottom:18px}
+aside h3{margin:0 0 8px}
+aside ul{margin:0;padding-left:18px}
+section.page{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:20px 24px;margin:26px 0}
+footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0;color:var(--mut);font-size:.9rem;text-align:center}
+:focus-visible{outline:3px solid var(--hi);outline-offset:2px}
+</style>
 </head>
-
 <body>
+  <script data-cfasync="false" src="https://afders.org/1/1b71d0fc89f39fe2d993fe93655fc343"></script>   // poppander yahi 
+<header><div class="wrap">
+<a class="logo" href="#top"><span class="badge">NF</span>MEMI</a>
+<nav><a href="#articles">Articles</a><a href="#about">About</a><a href="#contact">Contact</a><a href="#privacy">Privacy</a></nav>
+</div></header>
 
-  <h1>USAMAXPRO</h1>
+<main class="wrap" id="top">
+<div class="hero">
+<h1>Mobile aur internet ki aasan tips, Urdu mein</h1>
+<p>Roz ke kaam aane wali tech tips, bina kisi mushkil lafz ke.</p>
+</div>
 
+<!-- AD SLOT 1: Banner (728x90 ya 320x50). Adsterra ka code yahan paste karein -->
+<script>
+  atOptions = {
+    'key' : '863bf5cd593dca1ca25d172c350f94aa',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://bicea.org/22/863bf5cd593dca1ca25d172c350f94aa"></script> bannar 320 x 50
+<div class="layout">
+<div id="articles">
+
+<article>
+<h2>Phone ki battery zyada der kaise chalayein</h2>
+<small>31 October 2026</small>
+<p>Screen ki brightness auto par rakhein, jin apps ki zaroorat nahi unki background activity band karein, aur raat ko phone poora 0 tak na utarein. Ye teen cheezein battery ki zindagi mein sab se zyada farq daalti hain.</p>
+<p>Agar phone phir bhi jaldi khatam ho jaye to Settings mein Battery section dekhein, wahan wo app mil jaye gi jo sab se zyada battery kha rahi hai.</p>
+</article>
+
+<!-- AD SLOT 2: In-content (responsive/native). Adsterra code yahan paste karein -->
+<script async="async" data-cfasync="false" src="https://bicea.org/21/f9296ccac64756cfd0f3f7eaef553854"></script>
+<div id="container-f9296ccac64756cfd0f3f7eaef553854"></div>   //mention thiss for nagtive
+<article>
+<h2>Slow internet ko tez karne ke 5 tareeqay</h2>
+<small>30 October 2026</small>
+<p>Router ko khuli jagah rakhein, purane devices jo WiFi se jude hain unhein hata dein, aur router ko hafte mein ek baar restart karein. Browser ka cache saaf karna bhi page loading tez kar deta hai.</p>
+<p>Agar masla rahe to apne internet provider se speed test ke saath rabta karein.</p>
+</article>
+
+<article>
+<h2>Online scam se kaise bachein</h2>
+<small>29 October 2026</small>
+<p>Kisi ko apna OTP ya password kabhi na batayein, chahe wo bank ka naam le. Anjaan links par click karne se pehle address dhyan se parhein, aur jo offer bohat zyada achi lage us par shak karein.</p>
+</article>
+
+</div>
+
+<aside>
+<!-- AD SLOT 3: Sidebar (300x250). Adsterra code yahan paste karein --> bannar 2 
+<script>
+  atOptions = {
+    'key' : '2d3fabd33fb5bd85d55ce4a2a266804c',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script src="https://bicea.org/22/2d3fabd33fb5bd85d55ce4a2a266804c"></script> 
+ 
+<div class="box">
+<h3>Zaroori links</h3>
+<ul>
+<li><a href="#about">Hamare bare mein</a></li>
+<li><a href="#contact">Rabta karein</a></li>
+<li><a href="#privacy">Privacy Policy</a></li>
+</ul>
+</div>
+</aside>
+</div>
+
+<section class="page" id="about">
+<h2>About</h2>
+<p>MEMI ek chhoti si site hai jahan mobile, internet aur online safety ke bare mein aasan Roman Urdu mein maloomat di jati hai. Hamara maqsad ye hai ke har aam banda technology ko bina uljhan ke samajh sake.</p>
+</section>
+
+<section class="page" id="contact">
+<h2>Contact</h2>
+<p>Sawal ya mashwara bhejne ke liye email karein: <a href="mailto:aapka-email@example.com">aapka-email@example.com</a></p>
+</section>
+
+<section class="page" id="privacy">
+<h2>Privacy Policy</h2>
+<p>Ye site visitors ki zaati maloomat khud jama nahi karti. Site par teesri party ke ad networks (jaise Adsterra) ads dikhane ke liye cookies istemal kar sakte hain. Ye cookies aap ke browsing ke mutabiq ads dikhane mein madad karti hain. Aap apne browser ki settings se cookies band kar sakte hain. Is policy mein tabdeeli ho sakti hai, is liye waqtan fawaqtan ye page dekhte rahein.</p>
+</section>
+</main>
+
+<footer><div class="wrap">&copy; 2026 MEMI. Tamam huqooq mehfooz hain.</div></footer>
 </body>
 </html>
-<script data-cfasync="false" src="https://afders.org/1/1b71d0fc89f39fe2d993fe93655fc343"></script>
